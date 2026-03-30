@@ -1,0 +1,10 @@
+node_modules/
+.next/
+dist/
+.vite/
+*.log
+.env*
+portfolio/node_modules/
+portfolio/.next/
+Remaining/dist/
+Remaining/.vite/
