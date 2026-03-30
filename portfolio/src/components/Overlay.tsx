@@ -1,9 +1,9 @@
 "use client";
 
-import { motion, useScroll, useTransform } from 'framer-motion';
+import { motion, useScroll, useTransform, MotionValue } from 'framer-motion';
 import { FaLinkedin, FaGithub, FaCode } from 'react-icons/fa';
 
-const Letter = ({ char, index, scrollY }: { char: string, index: number, scrollY: any }) => {
+const Letter = ({ char, index, scrollY }: { char: string, index: number, scrollY: MotionValue<number> }) => {
     // Staggered entrance from top
     const delay = 0.2 + index * 0.03;
     
