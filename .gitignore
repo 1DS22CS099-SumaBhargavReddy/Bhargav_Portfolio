@@ -6,5 +6,4 @@ dist/
 .env*
 portfolio/node_modules/
 portfolio/.next/
-Remaining/dist/
-Remaining/.vite/
+Remaining/
